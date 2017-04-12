@@ -1,0 +1,14 @@
+<template name="home">
+	{{#if currentUser}}
+		<section	class="col-sm-12">
+			{{> post}}
+			{{>	timeline}}
+			
+		</section>
+	{{else}}
+		<div class="text-center">
+			<h1>MeteorBird</h1>
+			<h3>Efetue login ou cadastre-se para vizualizar os posts</h3>
+		</div>
+	{{/if}}
+</template>
