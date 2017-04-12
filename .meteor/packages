@@ -24,3 +24,5 @@ session
 accounts-base
 accounts-password
 ian:accounts-ui-bootstrap-3
+service-configuration
+iron:router
